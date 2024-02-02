@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import AdvancedFieldValidation from "./AdvancedFieldValidation";
 import BasicValidation from "./BasicValidation";
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
         <Row className="justify-content-md-center">
           <Col md={{ span: 6 }}>
             <BasicValidation />
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center">
+          <Col md={{ span: 6 }}>
+            <AdvancedFieldValidation />
           </Col>
         </Row>
       </Container>
